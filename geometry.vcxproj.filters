@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\external">
+      <UniqueIdentifier>{59331113-1260-4a7b-bce4-dc8a7e406683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\external\triangle">
+      <UniqueIdentifier>{90ef0570-e8fb-44c5-b9d3-eb8824acf203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\external">
+      <UniqueIdentifier>{76785e4b-2da2-456c-93ea-127cd8330834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\external\triangle">
+      <UniqueIdentifier>{455067e9-9c91-415f-8520-893a14b3bd8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="external\triangle\triangle.h">
+      <Filter>Заголовочные файлы\external\triangle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="geometry.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="external\triangle\triangle.c">
+      <Filter>Файлы исходного кода\external\triangle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
